@@ -70,6 +70,7 @@ git clone https://github.com/LiveOverflow/PwnAdventure3.git
 cd PwnAdventure3
 wget http://pwnadventure.com/pwn3.tar.gz
 tar -xvf pwn3.tar.gz
+mkdir postgres-data
 ```
 
 In order to run the server, `docker` and `docker-compose` have to be installed. Docker is moving fast, so it's a good idea to follow the current official steps for installation (which could also include to remove an older system version of docker): 
